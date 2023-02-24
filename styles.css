@@ -1,0 +1,72 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+}
+
+.top-text{
+    display: flex;
+    flex-direction: column;
+    height: 120px;
+    align-items:stretch;
+    padding-top: 20px;
+    flex: 1 1 auto;
+}
+
+.middle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sketchbox{
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    display: grid;
+
+}
+
+
+.square{
+    background-color: white;
+    user-select: none;
+}
+
+button{
+    background-color: #3882F6;
+    padding: 8px;
+    color: white;
+    font-weight: 800;
+    text-decoration: none;
+    border-radius: 12px;
+    flex: 0 1 auto;
+    margin-left: 10px;
+}
+
+.changeGrid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex: 0 1 auto;
+    padding-left: 30%;
+    padding-right: 30%;
+
+
+}
+
+.changeSize{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+}
+
+input{
+    height: 20px;
+    width: 30px;
+}
+
+p{
+    align-self: center;
+}
